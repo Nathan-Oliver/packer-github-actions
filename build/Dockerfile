@@ -11,7 +11,6 @@ LABEL "maintainer" = "Dawit Nida <dawit@dawitnida.com>"
 
 RUN apk add --no-cache jq
 RUN apk add --no-cache curl
-RUN apk add --no-cache curl
 RUN apk add --no-cache ansible
 
 COPY entrypoint.sh /entrypoint.sh
